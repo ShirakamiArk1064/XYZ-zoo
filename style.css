@@ -1,131 +1,96 @@
 body {
-  background-color: #fff9f3;
- background-image: url();
- 
-  
-}
-
-header {
-  background-color: #fff9f3;
-  padding: 20px;
-  text-align: center;
-}
-
-nav {
-  background-color: antiquewhite;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  color: rgb(209, 111, 13);
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
-}
-
-nav a:hover {
-  background-color: #e3ba80;
-  color: white;
-}
-
-div {
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-
-
-
-
-
-h1 {
-  color: rgb(0, 0, 0);
-  margin-left: 20px;
+    background-color: #0cb3fb
 }
 
 h1 {
-    color: brown;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: rgb(18, 180, 239);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 50px;  
 }
 
 
 h2 {
-    background-color: antiquewhite;
-    color: darkolivegreen;
+ color: #0cb3fb;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-    font-size: 40px;  
-    padding: 8px;
-    display: flex;
-    width: 250px;
-    justify-content: center;
     text-align: center;
-    margin: 20px;
 }
 
-h3 {
-  background-color: antiquewhite;
-  color: darkgoldenrod;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 18px;
-  width: 250px;
-  margin: 20px;
-  justify-content: center;
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white; 
+}
+
+.box {
+    background: #f2ecea;
+    padding: 40px;
+    width: 50%;
+    margin: 50px auto; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px #10e5f4
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
   text-align: center;
 }
 
-div.card {
-    display: inline-block;
-  width: 500px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 10px;
-  padding: 20px 20px 25px;
-  display: flexbox;
-  border: 2px;
+th {
   text-align: center;
-  navbar: 20px;
-  
+  background-color: #0cb3fb;
 }
 
-img {width: 100%}
+label {display: block;}
 
-div.container {
-  text-align: left;
-  padding: 10px 20px;
-  font-size: 20px;
-  text-align: center;
+input[type=text] {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-#source-border {
-  padding: 15px;
-  width: 250px;
-  margin: 20px;
+label {display: block;}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-#source-border .source {
-  font-size: 20px;
-  color: #d08113;
-  font-weight: bold;
-  margin: 20px;
-  margin-bottom: 10px;
+label {display: block;}
 
+input[type=telephone] {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-#source-border li a {
-  color: #d08113;
-  text-decoration: none;
-  font-weight: bold 
+select {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-footer {
-  background-color: #e3ba80;
-  padding: 20px;
-  text-align:left;
+input[type=submit] {
+     background-color: #0cb3fb;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
+textarea {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
